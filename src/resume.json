@@ -1,187 +1,269 @@
 {
   "basics": {
-    "name": "José Coelho",
-    "label": "Software Engineer",
-    "picture": "images/jcoelho.webp",
-    "x_pictureFallback": "images/jcoelho.jpg",
+    "name": "David Luhmer",
+    "label": "Fullstack Developer",
+    "picture": "images/IMG_2015_xing.webp",
+    "x_pictureFallback": "images/IMG_2015_xing.jpg",
     "x_title": "Hey There! Glad you're here",
-    "summary": "Going on 5 years of experience in IT. Currently I’m working as a developer exploring the DevOps world. I’m interested in service management, all sorts of automation and developing front-end and back-end applications.",
+    "summary": "Going on 10 years of experience in IT. Currently I'm working as a fullstack developer for WetterOnline as well as on my new startup AnimalWatch. I'm interested in all sorts of automation and developing front-end and back-end applications that have an impact on society and the environment.",
     "location": {
-      "country": "Portugal",
-      "countryCode": "PT",
-      "region": "Porto"
+      "country": "Germany",
+      "countryCode": "DE",
+      "region": "Bonn"
     },
     "profiles": [
       {
-        "network": "DEV Community",
-        "username": "jcoelho",
-        "url": "https://dev.to/jcoelho",
-        "x_icon":"fab fa-2x fa-dev"
-      },
-      {
-        "network": "LinkedIn",
-        "username": "josecoelho93",
-        "url": "https://www.linkedin.com/in/josecoelho93",
-        "x_icon": "fab fa-2x fa-linkedin"
+        "network": "Xing",
+        "username": "David_Luhmer",
+        "url": "https://www.xing.com/profile/David_Luhmer",
+        "x_icon": "fab fa-2x fa-xing"
       },
       {
         "network": "GitHub",
-        "username": "jcoelho93",
-        "url": "https://github.com/jcoelho93",
+        "username": "David-Development",
+        "url": "https://github.com/David-Development",
         "x_icon": "fab fa-2x fa-github"
+      },
+      {
+        "network": "Mail",
+        "username": "david-dev@live.de",
+        "url": "mailto:david-dev@live.de",
+        "x_icon": "fas fa-2x fa-at"
+      },
+      {
+        "network": "AnimalWatch",
+        "url": "https://animalwatch.app",
+        "x_icon": "fab fa-2x fa-keycdn"
+      },
+      {
+        "network": "YouTube",
+        "url": "https://www.youtube.com/results?search_query=David+Luhmer",
+        "x_icon": "fab fa-2x fa-youtube"
       }
     ]
   },
   "work": [
     {
-      "company": "feedzai",
-      "position": "Software Engineer",
-      "website": "https://feedzai.com",
-      "startDate": "2021-04-26",
+      "company": "AnimalWatch",
+      "position": "Founder / Software Engineer",
+      "website": "https://animalwatch.app",
+      "startDate": "2022-01-01",
       "endDate": "",
-      "summary": "The first startup in my professional path, feedzai - a Unicorn 🦄 - fighting financial crime and fraude",
+      "summary": "As a child, I was very fortunate to be able to spend a lot of time on my grandparents' farm. This time has had a lasting impact on my interest in the well-being of livestock. Today it gives me great pleasure to support agriculture and to make life easier for farmers with what I have learned from my studies and professional life. The focus of this project is on the well-being of the animals, the relief for farmers and a sustainable solution for the environment. ",
       "highlights": []
     },
     {
-      "company": "Self-employed",
-      "position": "Software development consultant",
-      "website": "https://jcoelho93.netlify.com",
-      "startDate": "2021-01-15",
+      "company": "WetterOnline GmbH",
+      "position": "Software Engineer / Technical Management",
+      "website": "https://www.wetteronline.de/",
+      "startDate": "2019-05-01",
       "endDate": "",
-      "summary": "Started working for myself, providing expertise on software development and DevOps culture and best practices for international startups.",
+      "summary": "Technical management of the team that develops the Radar. Coordinating the integration of web-technolgy into native apps (such as the weather radar). When I'm not working in Angular and Typescript I'm usually working on the infrastructure in AWS (IaC) as well as on some internal tools using Electron",
       "highlights": []
     },
     {
-      "company": "Bosch",
-      "position": "DevOps Engineer for automated driving",
-      "website": "https://www.bosch.hu",
-      "startDate": "2019-10-15",
-      "endDate": "2020-10-10",
-      "summary": "Joined the Athena project, a Bosch & Daimler effort to bring a level 4 autonomous car to the streets.",
+      "company": "Fraunhofer Institute for Intelligent Analysis and Information Systems IAIS",
+      "position": "Master Thesis",
+      "website": "https://www.iais.fraunhofer.de/en.html",
+      "startDate": "2018-06-01",
+      "endDate": "2019-03-01",
+      "summary": "Evaluation of approaches for the scaled execution of workflow-based applications using the example of an audio mining application http://publica.fraunhofer.de/documents/N-543565.html",
       "highlights": []
     },
     {
-      "company": "Asseco PST",
-      "position": "DevOps Engineer",
-      "website": "https://www.pst.asseco.com",
+      "company": "Bonn-Rhein-Sieg University of Applied Sciences",
+      "position": "Teaching Assistant",
+      "website": "https://www.h-brs.de/en/inf/study/bachelor/computer-science",
+      "startDate": "2018-10-01",
+      "endDate": "2019-02-01",
+      "summary": "Introduction to Programming 1",
+      "highlights": []
+    },
+    {
+      "company": "Bonn-Rhein-Sieg University of Applied Sciences",
+      "position": "Teaching Assistant",
+      "website": "https://www.h-brs.de/en/inf/study/bachelor/computer-science",
       "startDate": "2018-04-01",
-      "endDate": "2019-08-30",
-      "summary": "Joined Asseco PST DevOps team to help them deliver happiness to their customers",
+      "endDate": "2018-07-01",
+      "summary": "Programming 2",
       "highlights": []
     },
     {
-      "company": "Asseco PST",
-      "position": "Backend Developer",
-      "website": "https://www.pst.asseco.com",
-      "startDate": "2017-08-16",
-      "endDate": "",
-      "summary": "Started my first professional developer experience as a Backend Developer for Asseco PST",
+      "company": "Cologne Intelligence",
+      "position": "Mobile Apps Developer",
+      "website": "https://www.cologne-intelligence.de/unternehmen/cimm",
+      "startDate": "2018-04-01",
+      "endDate": "2018-05-01",
+      "summary": "Help out on an Android Project in the Augmented Reality field.",
       "highlights": []
     },
     {
-      "company": "European GNSS Agency",
-      "position": "IT Support Technician",
-      "website": "https://www.gsa.europea.eu",
+      "company": "Cologne Intelligence",
+      "position": "Mobile Apps Developer",
+      "website": "https://www.cologne-intelligence.de/unternehmen/cimm",
+      "startDate": "2016-12-01",
+      "endDate": "2016-12-01",
+      "summary": "Help out on an Android Project in the Augmented Reality field.",
+      "highlights": []
+    },
+    {
+      "company": "Cologne Intelligence",
+      "position": "Mobile Apps Developer",
+      "website": "https://www.cologne-intelligence.de/unternehmen/cimm",
       "startDate": "2016-05-01",
-      "endDate": "",
-      "summary": "Moved to Prague, Czech Republic to intern for the European Commission helping them build one of the biggest european projects, Galileo Satellite System",
+      "endDate": "2016-08-01",
+      "summary": "Continued working on the Device Management App",
       "highlights": []
     },
     {
-      "company": "Empresa de Electricidade da Madeira",
-      "position": "IT Support Technician",
-      "website": "https://www.eem.pt",
-      "startDate": "2015-03-01",
+      "company": "Cologne Intelligence",
+      "position": "Internship",
+      "website": "https://www.cologne-intelligence.de/unternehmen/cimm",
+      "startDate": "2016-02-01",
+      "endDate": "2016-04-01",
+      "summary": "Researched and developed an Android App to manage Cologne Intelligence's test device park using state of the art technology to ease the process of borrowing devices and locating them within the building. Including NFC authentication, facial recognition and WiFi AP detection for locating the devices.",
+      "highlights": []
+    },
+    {
+      "company": "David-Development",
+      "position": "Software Engineer",
+      "website": "https://play.google.com/store/apps/details?id=de.luhmer.owncloudnewsreader&hl=en&gl=US",
+      "startDate": "2013-05-01",
       "endDate": "",
-      "summary": "My first real work experience. Interning as an IT Support Technician I was able to learn and explore way more than the workings of a big IT Infrastructure. I got to work with PowerShell scripting, PHP and email marketing.",
+      "summary": "Ever since Google Reader was discontinued I founded the Open-Source Nextcloud News App for Android.",
       "highlights": []
     }
   ],
   "education": [
     {
-      "institution": "University of Madeira",
-      "area": "Computer Engineering",
-      "studyType": "Bachelor",
-      "startDate": "2011-09-15",
-      "endDate": "2019-06-07",
+      "institution": "Bonn-Rhein-Sieg University of Applied Sciences",
+      "url": "https://www.h-brs.de/en/inf/study/master/computer-science",
+      "area": "Computer Science",
+      "studyType": "Master",
+      "startDate": "2016-09-01",
+      "endDate": "2019-03-01",
       "courses": [
-        "Object Oriented Programming",
-        "Database Management Systems",
-        "Operating systems and computers architectures",
-        "Requirements Engineering"
+        "Complex software systems - final grade: 1.5 ~ GPA 3.5"
+      ]
+    },
+    {
+      "institution": "Dalhousie University",
+      "url": "https://www.dal.ca/faculty/computerscience.html",
+      "area": "Computer Science",
+      "studyType": "Bachelor",
+      "startDate": "2015-09-01",
+      "endDate": "2015-12-31",
+      "courses": [
+        "Semester Abroad in Halifax, Nova Scotia, Canada. GPA 3.76"
+      ]
+    },
+    {
+      "institution": "Bonn-Rhein-Sieg University of Applied Sciences",
+      "url": "https://www.h-brs.de/en/inf/study/bachelor/computer-science",
+      "area": "Computer Science",
+      "studyType": "Bachelor",
+      "startDate": "2013-09-01",
+      "endDate": "2016-09-01",
+      "courses": [
+        "Complex software systems - final grade: 1.3 ~ GPA 3.7"
+      ]
+    },
+    {
+      "institution": "Heinrich-Hertz-Europakolleg",
+      "url": "https://hhek.bonn.de/informationstechnischer-assistent-in-mit-allgemeiner-hochschulreife/",
+      "area": "State-certified IT assistant",
+      "studyType": "Abitur",
+      "startDate": "2010-08-01",
+      "endDate": "2013-08-01",
+      "courses": [
+        "Cisco CCNA Certification / C#, Oracle 11g SQL, PHP, Windows Active Directory, networks, computer engineering, electrical engineering"
       ]
     }
   ],
   "skills": [
     {
-      "name": "Jenkins",
+      "name": "GitLab",
       "level": "Advanced",
-      "keywords": ["DevOps"]
+      "keywords": [
+        "DevOps"
+      ]
     },
     {
       "name": "Continuous Integration",
       "level": "Advanced",
-      "keywords": ["DevOps"]
-    },
-    {
-      "name": "Scripting",
-      "level": "Advanced",
-      "keywords": ["DevOps"]
+      "keywords": [
+        "DevOps"
+      ]
     },
     {
       "name": "Containers",
       "level": "Advanced",
-      "keywords": ["DevOps"]
+      "keywords": [
+        "DevOps"
+      ]
     },
     {
-      "name": "Cloud",
-      "level": "Basic",
-      "keywords": ["DevOps"]
+      "name": "Scripting",
+      "level": "Intermediate",
+      "keywords": [
+        "DevOps"
+      ]
+    },
+    {
+      "name": "Cloud (AWS SAA-C02)",
+      "level": "Intermediate",
+      "keywords": [
+        "DevOps"
+      ]
     },
     {
       "name": "Troubleshooting",
-      "level": "Advanced",
-      "keywords": ["DevOps"]
-    },
-    {
-      "name": "Infrastructure as Code",
       "level": "Intermediate",
-      "keywords": ["DevOps"]
+      "keywords": [
+        "DevOps"
+      ]
     },
     {
       "name": "Object Oriented Programming",
       "level": "Advanced",
-      "keywords": ["Software Developer"]
+      "keywords": [
+        "Software Developer"
+      ]
     },
     {
       "name": "Design Patterns",
       "level": "Intermediate",
-      "keywords": ["Software Developer"]
+      "keywords": [
+        "Software Developer"
+      ]
     },
     {
       "name": "Git",
       "level": "Intermediate",
-      "keywords": ["Software Developer"]
+      "keywords": [
+        "Software Developer"
+      ]
     },
     {
-      "name": "REST API",
+      "name": "Typescript / Angular",
       "level": "Advanced",
-      "keywords": ["Software Developer"]
+      "keywords": [
+        "Software Developer"
+      ]
     },
     {
-      "name": "Unit Testing",
+      "name": "Android",
       "level": "Intermediate",
-      "keywords": ["Software Developer"]
+      "keywords": [
+        "Software Developer"
+      ]
     },
     {
-      "name": "MySQL",
+      "name": "Databases (SQL + NoSQL)",
       "level": "Intermediate",
-      "keywords": ["Software Developer"]
-    },
-    {
-      "name": "MongoDB",
-      "level": "Intermediate",
-      "keywords": ["Software Developer"]
+      "keywords": [
+        "Software Developer"
+      ]
     }
   ],
   "languages": [
@@ -190,7 +272,7 @@
       "fluency": "Fluent speaker"
     },
     {
-      "language": "Portuguese",
+      "language": "German",
       "fluency": "Native speaker"
     }
   ],
@@ -200,16 +282,16 @@
       "x_icon": "fa-globe-africa"
     },
     {
-      "name": "Dog lover",
-      "x_icon": "fa-dog"
-    },
-    {
       "name": "Foodie",
       "x_icon": "fa-utensils"
     },
     {
-      "name": "Live in the now",
-      "x_icon": "fa-brain"
+      "name": "Founder",
+      "x_icon": "fa-rocket"
+    },
+    {
+      "name": "Speaker",
+      "x_icon": "fa-microphone"
     }
   ]
 }

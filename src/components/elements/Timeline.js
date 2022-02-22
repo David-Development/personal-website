@@ -3,7 +3,29 @@ import TimelineItem from "./TimelineItem";
 import TimelineHeader from "./TimelineHeader";
 import Resume from "../../resume.json";
 
-function Timeline() {
+function dateFormatter(date) {
+  const d = new Date(date);
+  if (d instanceof Date && !isNaN(d)) {
+    return d.toLocaleString("en-UK", {
+      month: "long",
+      year: "numeric"
+    });
+  }
+  return "now"
+}
+
+/**
+ * 
+ * @param {*} field can be either work or education
+ * @returns 
+ */
+function Timeline({ field }) {
+  const resumeItems = Resume[field];
+  const years = new Set();
+  resumeItems.forEach((item) => {
+    years.add(new Date(item.startDate).getFullYear());
+  });
+  const yearsList = [...years];
   return (
     <div className="timeline is-centered">
       <header className="timeline-header">
@@ -15,30 +37,39 @@ function Timeline() {
         <div className="timeline-marker is-success"></div>
         <div className="timeline-content"></div>
       </div>
-      {Resume.work
-        .map(item => {
-          return new Date(item.startDate).getFullYear();
-        }).filter((value, index, self) => self.indexOf(value) === index)
-        .map((year, i) => {
-          let content = [];
+      {
+        yearsList.map((year, i) => {
+          const content = [];
           content.push(
-            <TimelineHeader key={i} year={year}/>
+            <TimelineHeader key={i} year={year} />
           );
           content.push(
-            Resume.work
-              .filter(work => new Date(work.startDate).getFullYear() === year)
+            resumeItems
+              .filter(item => new Date(item.startDate).getFullYear() === year)
               .map((item, j) => {
-                return (
-                  <TimelineItem
-                    key={j}
-                    date={new Date(item.startDate).toLocaleString("en-UK", {
-                      month: "long",
-                      year: "numeric"
-                    })}
-                    company={item.company}
-                    summary={item.summary}
-                  />
-                );
+                if (field === "education") {
+                  return (
+                    <TimelineItem
+                      key={j}
+                      date={`${dateFormatter(item.startDate)} - ${dateFormatter(item.endDate)}`}
+                      title={item.institution}
+                      url={item.url}
+                      subtitle={`${item.studyType} / ${item.area}`}
+                      summary={item.courses}
+                    />
+                  );
+                } else {
+                  return (
+                    <TimelineItem
+                      key={j}
+                      date={`${dateFormatter(item.startDate)} - ${dateFormatter(item.endDate)}`}
+                      title={item.company}
+                      subtitle={item.position}
+                      url={item.website}
+                      summary={item.summary}
+                    />
+                  );
+                }
               })
           );
           return content;

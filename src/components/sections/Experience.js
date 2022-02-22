@@ -7,7 +7,7 @@ function Experience() {
     <section className="section" id="experience">
       <div className="container">
         <h1 className="title">Experience</h1>
-        <Timeline />
+        <Timeline field="work" title="company" subtitle="doesnt-exists" summary="summary" />
       </div>
     </section>
   );
